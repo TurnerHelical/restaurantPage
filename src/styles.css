@@ -40,3 +40,22 @@ nav button:active {
     background-color: ghostwhite;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: ghostwhite;
+}
+
+#content h2 {
+    font-size: 32px;
+}
+
+#content img {
+    height: 50%;
+    width: 50%;
+}
+
