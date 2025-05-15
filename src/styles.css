@@ -1,0 +1,42 @@
+header {
+    display: grid;
+    grid-template: 1fr 50px / 1fr;
+    height: 300px;
+    width: 100vw;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+
+nav button {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: 1px solid ghostwhite;
+    padding: 5px 15px;
+    margin: 1px;
+}
+
+nav button:hover {
+    background-color: gray;
+    border: 1px black solid;
+}
+
+nav button:active {
+    background-color: ghostwhite;
+}
+
