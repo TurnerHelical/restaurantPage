@@ -40,7 +40,7 @@ nav button:active {
     background-color: ghostwhite;
 }
 
-#content {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;

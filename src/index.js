@@ -2,6 +2,6 @@ import './reset.css';
 import './styles.css';
 import {home} from './pageLoad.js';
 
-home.homepageLoad();
+const pageLoad = home();
 
-console.log('test');
+pageLoad.homeLoad();
