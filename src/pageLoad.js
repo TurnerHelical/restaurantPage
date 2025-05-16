@@ -43,7 +43,7 @@ function home() {
         menuButton.addEventListener('click', menuLoad);
         aboutButton.addEventListener('click', aboutLoad);
     }
-    return {homeLoad}
+    return {homeLoad, buttons}
 }
 
 export {home};
